@@ -33,6 +33,7 @@ const appendOperation = (value) => {
 
 
 const calculate = () => {
+  // eslint-disable-next-line no-eval
   setCalculation(eval(calculation).toString());
 };
 
